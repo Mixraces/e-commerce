@@ -7,7 +7,7 @@ const methodOverride = require("method-override");
 const flash = require("connect-flash");
 const session = require("express-session");
 
-mongoose.connect("mongodb://127.0.0.1:27017/geegstack_store")
+mongoose.connect("mongodb+srv://mixraces:052332@cluster0.jfqcz8w.mongodb.net/?retryWrites=true&w=majority")
 .then(function() {
     console.log("Database connected sucessfully!");
 })
